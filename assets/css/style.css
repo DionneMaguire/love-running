@@ -9,16 +9,16 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
+    color: #3a3a3a;
 } 
 
 /* headings and logo */
 
 h1, h2 {
-    font-family:Oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525
+    color: #252525
 }
 
 #logo {
@@ -67,8 +67,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2{
-    color:#fff;
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -87,14 +87,14 @@ h1, h2 {
     from{
         transform: scale(1);
     }
-    to {
+    to{
         transform: scale(1.1);
     }
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -124,7 +124,7 @@ h1, h2 {
 }
 
 #right-about {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -211,7 +211,7 @@ hr {
 }
 
 #times h2 {
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /*  footer */
@@ -232,7 +232,7 @@ footer i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /* gallery */
@@ -252,7 +252,7 @@ footer i {
 /* media queries */
 
 /* for larger to medium screen size from 1200px wide and down */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -281,7 +281,7 @@ footer i {
 }
 
 /* for medium screen sizes from 950px wide and down */
-@media screen and (max-width) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
